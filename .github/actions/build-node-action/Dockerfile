@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:6.6
 LABEL maintainer="joe@rstudio.com"
 
 RUN yum -y install centos-release-scl
