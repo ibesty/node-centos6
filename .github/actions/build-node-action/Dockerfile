@@ -18,7 +18,7 @@ RUN yum makecache
 # RUN curl https://www.getpagespeed.com/files/centos6-scl-eol.repo --output /etc/yum.repos.d/CentOS-SCLo-scl.repo 
 # RUN curl https://www.getpagespeed.com/files/centos6-scl-rh-eol.repo --output /etc/yum.repos.d/CentOS-SCLo-scl-rh.repo
 RUN yum -y install python27
-RUN yum -y install devtoolset-7
+RUN yum -y install devtoolset-7-gcc devtoolset-7-gcc-c++ devtoolset-7-binutils
 RUN yum -y install tar
 RUN yum -y install git
 RUN yum -y install xz
